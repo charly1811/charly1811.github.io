@@ -5,12 +5,12 @@ date:   2016-01-04 22:06:00 -0500
 categories: java firebase
 ---
 
-In a nutshell Firebase is a backend service for mobile app. 
+In a nutshell Firebase is a backend service for mobile apps. 
 It offers everything you need to create a cloud experience for your app (data storage, user authentication, static hosting, and more)
 The firebase team provide SDKs for Android, iOS and the web
 
-The firebase SDKs for Android and JVM works almost exactly the same. 
-The only difference is that on JVM API calls are made in daemon threads therefore the main thread of you program will close right after you call the firebase methods. 
+The firebase SDKs for Android and JVM work almost the same. 
+One of the differences is that on JVM API calls are made in daemon threads therefore the main thread of you program will close right after you call the firebase methods. 
 
 [The Firebase documentation][firebase-docs] suggests to a the Semaphore or CountDownLatch object to prevent the process from exiting during operation.
 Here is my solution inspired by the suggestion from the Firebase documentation.
