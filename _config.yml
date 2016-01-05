@@ -7,10 +7,10 @@
 
 # Site settings
 title: Charles-Eugene Loubao
-email: your-email@domain.com
+email: charlesloubao95@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
     Thoughts and ideas about programming
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "/blog" # the subpath of your site, e.g. /blog
 url: "http://charly1811.github.io" # the base hostname & protocol for your site
 twitter_username: celoubao
 github_username:  charly1811
