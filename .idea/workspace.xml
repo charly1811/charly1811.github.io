@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="685f5f56-4df8-4809-ab3c-6ec97c2f09ac" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/style/main.css" afterPath="$PROJECT_DIR$/style/main.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/style/main.css.map" afterPath="$PROJECT_DIR$/style/main.css.map" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/style/main.scss" afterPath="$PROJECT_DIR$/style/main.scss" />
     </list>
     <ignored path="charly1811.github.io.iws" />
@@ -39,8 +37,8 @@
       <file leaf-file-name="main.scss" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/style/main.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0960334">
-              <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.8559499">
+              <caret line="83" column="0" selection-start-line="83" selection-start-column="0" selection-end-line="83" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -373,8 +371,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/style/main.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0960334">
-          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.8559499">
+          <caret line="83" column="0" selection-start-line="83" selection-start-column="0" selection-end-line="83" selection-end-column="0" />
           <folding />
         </state>
       </provider>
