@@ -1,51 +1,23 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Charles-Eugene Loubao</title>
-    <link rel="stylesheet" href="style/main.css"/>
+---
+layout: default
+---
 
-    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+<div class="home">
 
-</head>
-<body>
-<header>
-    <div id="header_content">
-        <div id="me">
-            <img id="profile_picture" src="assets/me.jpg"/>
-            <h1>Charles-Eugene Loubao</h1>
-            <p>Developer passionate about <b>Android</b> and <b>NodeJS</b></p>
-            <ul>
-                <li>
-                    <a href="http://twitter.com/celoubao" target="_blank"><img id="icon_twitter"
-                                                                               src="assets/twitter.svg"/></a>
-                </li>
+  <h1 class="page-heading">Posts</h1>
 
-                <li>
-                    <a href="http://github.com/charly1811" target="_blank"><img id="icon_github"
-                                                                                src="assets/github-circle.svg"/></a>
-                </li>
+  <ul class="post-list">
+    {% for post in site.posts %}
+      <li>
+        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
 
-                <li>
-                    <a href="http://twitter.com" target="_blank"><img id="icon_linkedin" src="assets/linkedin.svg"/></a>
-                </li>
+        <h2>
+          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+        </h2>
+      </li>
+    {% endfor %}
+  </ul>
 
-                <li>
-                    <a href="mailto:charlesloubao95@gmail.com" target="_blank"><img id="icon_email"
-                                                                                    src="assets/email.svg"/></a>
-                </li>
-            </ul>
-        </div>
-        <div id="header_footer">
-            <p id="copyright">
-                <script>
-                    var content = '&copy ' + new Date().getFullYear() + ' <a href=" / "><b>Charles-Eugene Loubao</b></a>';
-                    document.getElementById("copyright").innerHTML = content;
-                </script>
-            </p>
-        </div>
-    </div>
+  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
 
-</header>
-</body>
-</html>
+</div>
