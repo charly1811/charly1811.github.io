@@ -234,8 +234,6 @@ Espresso.unregisterIdlingResources(pushIdlingResource);
 
 Even though ```unregisterIdlingResources()``` is called below ```onOperationStarted()``` it will not be executed after that method.
 
-You can find a the full source code on [Github][sample-source-code]
-
 ### Useful Links
 * [Espresso Website][espresso-website]
 * [Firebase Website][firebase-website]
