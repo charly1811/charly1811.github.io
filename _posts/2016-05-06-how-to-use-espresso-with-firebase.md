@@ -3,6 +3,8 @@ layout: post
 title: "How to use Espresso with Firebase"
 date: 2016-05-06 18:19:55
 categories: testing espresso
+description: Lorem Ipsum
+github: "https://github.com/charly1811/sample-espresso-firebase"
 ---
 
 I recently started using Espresso, [A UI testing library by Google][espresso-website] to write automated tests 
