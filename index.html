@@ -1,17 +1,28 @@
----
-layout: default
----
+<!DOCTYPE html>
 
-<div class="home">
+<head>
+	<title>Hello World :: Charles-Eugene Loubao</title>
+	<link rel="stylesheet" type="text/css" href="style.css" </link>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
 
-    <h1 class="page-heading">Posts</h1>
+<body>
+	<div id="section-header">
+		<div id="section-header-content">
+			<img id="site-profile-image" src="https://scontent-iad3-1.xx.fbcdn.net/v/t1.0-9/14457315_729441103861799_7957022775754063898_n.jpg?oh=d8a2457f1e5f2b007950c9d2802e06a0&oe=58A9DEA7"
+			/>
+			<span id="site-title">CHARLES-EUGENE LOUBAO</span>
+			<span id="site-description">DEVELOPER</span>
+			<p>Hey there ! My name is Charles-Eugene Loubao, I am a student and developer mainly focused on building high quality android apps.
+            </p>
 
-    <ul class="post-list">
-        {% for post in site.posts %}
-        {% include article-box.html %}
-        {% endfor %}
-    </ul>
-
-    <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
-
-</div>
+            <ul id="section-header-links">
+				<li class="link"><a target="_blank" href="https://play.google.com/store/apps/dev?id=8303185972134069781">APPS</a></li>
+				<li class="link"><a target="_blank" href="https://medium.com/@charly1811">BLOG</a></li>
+				<li class="link"><a target="_blank" href="https://github.com/charly1811">GITHUB</a></li>
+				<li class="link"><a target="_blank" href="mailto:charlesloubao95@gmail.com">EMAIL</a></li>
+			</ul>
+		</div>
+	</div>
+</body>
+<!---->
